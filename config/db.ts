@@ -1,6 +1,9 @@
 import mongoose from "mongoose";
 import config from 'config';
 
+//Logger
+import Logger from "./logger";
+
 /**
  * Função para abrir conexão com o banco de dados mongodb
  */
@@ -9,10 +12,11 @@ async function connect() {
     try {
 
         await mongoose.connect(dbUri);
-        console.log("Conectou ao banco de dados");
+        Logger.info("Conectou ao banco de dados");
 
     } catch(e: any) {
-        console.log("Não foi possível conectar ao banco de dados. Erro" + e);
+        Logger.error("Não foi possível conectar ao banco de dados. Erro" + e);
+        process.exit(1); //Se ocorrer um erro, stopa a aplicação
     }
 }
 

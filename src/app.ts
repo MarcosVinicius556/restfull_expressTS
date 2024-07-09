@@ -12,6 +12,9 @@ const app = express();
 //Routes
 import router from "./router";
 
+//Logger
+import Logger from "../config/logger";
+
 app.use("/api/", router) //Definindo o prefixo da api, e passando nossas rotas para a aplicação
 
 //JSON middleware
@@ -27,5 +30,5 @@ app.listen(port, async () => {
     //Só inicia a aplicação se a conexão com o banco for bem sucedida
     await db();
 
-    console.log(`aplicação rodando na porta ${port}`)
+    Logger.info(`aplicação rodando na porta ${port}`)
 })
