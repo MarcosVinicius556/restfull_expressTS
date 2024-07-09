@@ -1,0 +1,5 @@
+# Dados sensíveis
+.env
+
+# Pasta muito grande, sem a necessidade de ser versionada
+node_modules

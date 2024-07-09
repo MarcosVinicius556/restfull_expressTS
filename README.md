@@ -10,3 +10,10 @@ Olá, seja bem vindo a minha aplicação! A mesma consiste em uma API RESTFULL d
     -> mongoose: Framework ODM.
     -> morgan: Geração de logs na aplicação.
     -> winston: Criação de arquivos com nossos logs.
+
+# Para rodar a aplicação
+
+Para que seja possível utilizar a aplicação, é necessário configurar as seguintes variáveis de ambiente
+
+ -> DB_USER: Usuário do banco de dados atlas mongoDB
+ -> DB_PASS Senha do usuário do banco de dados atlas mongoDB
