@@ -8,8 +8,8 @@ Olá, seja bem vindo a minha aplicação! A mesma consiste em uma API RESTFULL d
     -> express: Nosso queridinho responsável por disponibilizar funções para criação da API restfull.
     -> express-validator: validações nos items do projeto.
     -> mongoose: Framework ODM.
-    -> morgan: Geração de logs na aplicação.
-    -> winston: Criação de arquivos com nossos logs.
+    -> morgan: Geração de logs na aplicação, em requisições.
+    -> winston: Geração de logs na aplicação, onde nós colocamos.
 
 # Para rodar a aplicação
 

@@ -15,10 +15,17 @@ import router from "./router";
 //Logger
 import Logger from "../config/logger";
 
-app.use("/api/", router) //Definindo o prefixo da api, e passando nossas rotas para a aplicação
+//Middlewares
+import morganMiddleware from "./middleware/morganMiddleware";
 
 //JSON middleware
 app.use(express.json());
+
+//Logger middleware
+app.use(morganMiddleware)
+
+//Definindo o prefixo da api, e passando nossas rotas para a aplicação
+app.use("/api/", router) 
 
 //APP PORT
 const port = config.get<number>("port"); //Acessando configuração definida em "config/default.ts" e tipando ela pra "number"
