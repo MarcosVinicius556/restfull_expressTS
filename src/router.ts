@@ -1,5 +1,5 @@
 import { Router, Request, Response } from "express";
-import { createMovie, findAllMovies, findMovieById, removeMovie } from "./controllers/movieControllers";
+import { createMovie, findAllMovies, findMovieById, removeMovie, updateMovie } from "./controllers/movieControllers";
 
 //Validations
 import { validate } from "./middleware/handleValidation";
@@ -17,4 +17,5 @@ export default router
     .post("/movie", movieCreateValidation(), validate, createMovie)
     .get("/movie/:id", findMovieById)
     .get("/movie", findAllMovies)
-    .delete("/movie/:id", removeMovie);
+    .delete("/movie/:id", removeMovie)
+    .patch("/movie/:id", movieCreateValidation(), validate, updateMovie); //Patch é utilizado quando temos um update que é feito campo a campo, e não total
