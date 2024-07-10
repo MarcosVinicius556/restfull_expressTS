@@ -99,3 +99,19 @@
 2024-07-09 22:43:14:4314 - [32minfo[39m - [32maplicação rodando na porta 3000[39m
 2024-07-09 22:43:18:4318 - [32minfo[39m - [32mConectou ao banco de dados[39m
 2024-07-09 22:43:18:4318 - [32minfo[39m - [32maplicação rodando na porta 3000[39m
+2024-07-09 22:43:33:4333 - [32minfo[39m - [32mConectou ao banco de dados[39m
+2024-07-09 22:43:33:4333 - [32minfo[39m - [32maplicação rodando na porta 3000[39m
+2024-07-09 22:44:46:4446 - [32minfo[39m - [32mConectou ao banco de dados[39m
+2024-07-09 22:44:46:4446 - [32minfo[39m - [32maplicação rodando na porta 3000[39m
+2024-07-09 22:51:15:5115 - [35mhttp[39m - [35mPOST /api/movie 201 155 - 49.169 ms[39m
+[35m[39m
+2024-07-09 22:51:31:5131 - [32minfo[39m - [32mConectou ao banco de dados[39m
+2024-07-09 22:51:31:5131 - [32minfo[39m - [32maplicação rodando na porta 3000[39m
+2024-07-09 22:51:38:5138 - [32minfo[39m - [32mConectou ao banco de dados[39m
+2024-07-09 22:51:38:5138 - [32minfo[39m - [32maplicação rodando na porta 3000[39m
+2024-07-09 22:52:05:525 - [32minfo[39m - [32mConectou ao banco de dados[39m
+2024-07-09 22:52:05:525 - [32minfo[39m - [32maplicação rodando na porta 3000[39m
+2024-07-09 22:52:07:527 - [35mhttp[39m - [35mPOST /api/movie 422 96 - 5.565 ms[39m
+[35m[39m
+2024-07-09 22:56:03:563 - [32minfo[39m - [32mConectou ao banco de dados[39m
+2024-07-09 22:56:03:563 - [32minfo[39m - [32maplicação rodando na porta 3000[39m

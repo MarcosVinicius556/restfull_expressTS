@@ -3,6 +3,7 @@ import { createMovie } from "./controllers/movieControllers";
 
 //Validations
 import { validate } from "./middleware/handleValidation";
+import { movieCreateValidation } from "./middleware/movieValidation";
 
 /**
  * Com este objeto seremos capaz de criar rotas sem que elas estejam diretamente associadas ao objeto do express definido em app.ts
