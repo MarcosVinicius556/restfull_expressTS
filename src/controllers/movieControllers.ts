@@ -10,5 +10,12 @@ import Logger from '../../config/logger';
  * Definindo função para criação de um objeto do tipo "Movie"
  */
 export async function createMovie(req: Request, res: Response) {
-    return res.status(200).send("Deu certo o controller!");
+    try {
+        const data = req.body;
+        const movie = await MovieModel.create(data);
+        return res.status(201).json(movie);
+    } catch(e: any) {
+        Logger.error(`Erro no sistema: ${e.message}`)
+        return res.status(500).send("Erro ao inserir filme!");
+    }
 }
