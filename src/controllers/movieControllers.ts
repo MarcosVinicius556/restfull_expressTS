@@ -45,3 +45,21 @@ export async function findAllMovies(req: Request, res: Response) {
         return res.status(500).send("Erro ao buscar todos os filmes!");
     }
 }
+
+export async function removeMovie(req: Request, res: Response) {
+    try {
+        const id = req.params.id;
+        const movie = await MovieModel.findById(id);
+
+        if(!movie) {
+            return res.status(404).json({error: "Filme não encontrado!"});    
+        }
+
+        await movie.deleteOne()
+
+        return res.status(200).json({msg: "Filme removido com sucesso!"});
+    } catch(e: any) {
+        Logger.error(`Erro no sistema: ${e.message}`)
+        return res.status(500).send("Erro ao remover o filme!");
+    }
+}
