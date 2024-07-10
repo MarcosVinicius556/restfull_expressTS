@@ -33,3 +33,5 @@
 [35m[39m
 2024-07-09 20:43:59:4359 - [35mhttp[39m - [35mGET /api/test 200 12 - 0.241 ms[39m
 [35m[39m
+2024-07-09 20:44:02:442 - [32minfo[39m - [32mConectou ao banco de dados[39m
+2024-07-09 20:44:02:442 - [32minfo[39m - [32maplicação rodando na porta 3000[39m
