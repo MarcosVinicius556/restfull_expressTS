@@ -137,3 +137,28 @@
 2024-07-09 23:05:05:55 - [32minfo[39m - [32maplicação rodando na porta 3000[39m
 2024-07-09 23:05:08:58 - [32minfo[39m - [32mConectou ao banco de dados[39m
 2024-07-09 23:05:08:58 - [32minfo[39m - [32maplicação rodando na porta 3000[39m
+2024-07-09 23:05:11:511 - [32minfo[39m - [32mConectou ao banco de dados[39m
+2024-07-09 23:05:11:511 - [32minfo[39m - [32maplicação rodando na porta 3000[39m
+2024-07-09 23:05:28:528 - [31merror[39m - [31mErro no sistema: Cast to ObjectId failed for value "1" (type string) at path "_id" for model "Movie"[39m
+2024-07-09 23:05:28:528 - [35mhttp[39m - [35mGET /api/movie/1 500 22 - 6.589 ms[39m
+[35m[39m
+2024-07-09 23:06:12:612 - [35mhttp[39m - [35mGET /api/movie/668de53ed48ac17f4f575f69 201 155 - 33.223 ms[39m
+[35m[39m
+2024-07-09 23:06:17:617 - [35mhttp[39m - [35mGET /api/movie/668de53ed48ac17f4f575f62 404 34 - 30.644 ms[39m
+[35m[39m
+2024-07-09 23:06:20:620 - [35mhttp[39m - [35mGET /api/movie/668de53ed48ac17f4f575f69 201 155 - 27.680 ms[39m
+[35m[39m
+2024-07-09 23:07:13:713 - [32minfo[39m - [32mConectou ao banco de dados[39m
+2024-07-09 23:07:13:713 - [32minfo[39m - [32maplicação rodando na porta 3000[39m
+2024-07-09 23:07:27:727 - [32minfo[39m - [32mConectou ao banco de dados[39m
+2024-07-09 23:07:27:727 - [32minfo[39m - [32maplicação rodando na porta 3000[39m
+2024-07-09 23:07:35:735 - [32minfo[39m - [32mConectou ao banco de dados[39m
+2024-07-09 23:07:35:735 - [32minfo[39m - [32maplicação rodando na porta 3000[39m
+2024-07-09 23:08:10:810 - [32minfo[39m - [32mConectou ao banco de dados[39m
+2024-07-09 23:08:10:810 - [32minfo[39m - [32maplicação rodando na porta 3000[39m
+2024-07-09 23:08:20:820 - [32minfo[39m - [32mConectou ao banco de dados[39m
+2024-07-09 23:08:20:820 - [32minfo[39m - [32maplicação rodando na porta 3000[39m
+2024-07-09 23:08:30:830 - [32minfo[39m - [32mConectou ao banco de dados[39m
+2024-07-09 23:08:30:830 - [32minfo[39m - [32maplicação rodando na porta 3000[39m
+2024-07-09 23:08:35:835 - [32minfo[39m - [32mConectou ao banco de dados[39m
+2024-07-09 23:08:35:835 - [32minfo[39m - [32maplicação rodando na porta 3000[39m
